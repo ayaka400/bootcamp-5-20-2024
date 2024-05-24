@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Actibvity 2</title>
+
+<style>
+  .card{
+    width: 25%;
+    margin-right: 2%;
+    box-shadow: 5px 5px 100px 5px gray;
+    float: left;
+  }
+
+  .card img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-body{
+    padding: 10px;
+  }
+
+  .fw-bold{
+    font-weight: bold;
+  }
+
+  .rounded-top{
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+  }
+
+</style>
+
+</head>
+<body>
+
+  <h1>Profile Cards</h1>
+
+  <div class="card rounded-top">
+    <img class="prof-img rounded-top" src="assets/images/prof1.jpg" alt="" >
+    <div class="card-body">
+        <p class="fw-bold">John Doe</p>
+        <p>Architect and Designer</p>
+    </div>
+  </div>
+
+  <div class="card rounded-top">
+    <img class="prof-img rounded-top" src="assets/images/prof2.jpg" alt="" >
+    <div class="card-body">
+        <p class="fw-bold">Jane Doe</p>
+        <p>Chef</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.serif{
+  font-family: serif;
+}
+
+.sans-serif{
+  font-family: sans-serif;
+}
+
+.monospace{
+  font-family: monospace;
+}
+
+
+.shadow{
+  font-size: 30px;
+  text-shadow: 10px 10px 3px hwb(0 0% 100% / 0.592);
+}
+
+.img-hw{
+  border: 1px solid palevioletred;
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  background-attachment: scroll;
+}
+
+.bg-img{
+  background: center / contain no-repeat url("../../media/examples/firefox-logo.svg"),
+  #eee 35% url("../../media/examples/lizard.png");
+}
+
